@@ -7,12 +7,14 @@
 <p> This workflow allows massive-production of geometries using different software, hooked up to Revit via Grasshopper.
 <p> Tested geometries using the following software:
 - Revit -> Rhino -> Grasshopper -> Revit [Needs additional script, provided in this repo]
+
 - Archicad -> Rhino -> Grasshopper -> Revit [No additional work need]
+
 - Sketchup -> Rhino -> Grasshopper -> Revit [Works well with low-poly geometry mostly]
 
 ### HOW TO USE
-<p>All .gh files are aimed to work with **REU_VILLAGES_TEMPLATE_REGION_R24_central.rvt**
-<p>When starting a new project, use **0reset_sheet_parameters.gh** to reset any possible parameters used by the other scripts, left from previous projects.
+All .gh files are aimed to work with **REU_VILLAGES_TEMPLATE_REGION_R24_central.rvt**
+When starting a new project, use **0reset_sheet_parameters.gh** to reset any possible parameters used by the other scripts, left from previous projects.
 
 #### ReUkraineVillages_RhinoToRevit.gh
 ![](https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/ReUkraineVillages_RhinoToRevit.png)
