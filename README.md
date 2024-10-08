@@ -19,6 +19,11 @@ When starting a new project, use **0reset_sheet_parameters.gh** to reset any pos
 
 Before using - install [all additional plugins](https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/plugins)
 
+Software:
+* Revit 2024
+* Rhino 8
+* Windows 10
+
 #### ReUkraineVillages_RhinoToRevit.gh
 ![](https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/ReUkraineVillages_RhinoToRevit.png)
 <p>The main file to create and place views on Revit sheets.
@@ -29,11 +34,11 @@ Color code:
 
 ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) RED - the user input
 
-![#1589F0](https://placehold.co/15x15/1589f0/1589f0.png) BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
+![#1589F0](https://placehold.co/15x15/1589f0/1589f0.png) BLUE - data verification. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
 
 <img src="https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/error2.jpg" alt="err" width="20%"/>
 
-![#FDDA0D](https://placehold.co/15x15/fdda0d/fdda0d.png) YELLOW - dependent on the chosen geometry type
+![#FDDA0D](https://placehold.co/15x15/fdda0d/fdda0d.png) YELLOW - geometry-type dependencies
 
 
 Types of geometry:
