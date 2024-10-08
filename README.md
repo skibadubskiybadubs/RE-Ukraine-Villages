@@ -18,10 +18,14 @@
 ![](https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/ReUkraineVillages_RhinoToRevit.png)
 <p>The main file to create and place views on Revit sheets.
 <p>It uses asynchronious proceses inside Grasshopper and scheduled transactions inside Revit document.
-<p>![#f03c15]()<font color="red">Everything marked with RED is for the user input</font>
-<p>![#1589F0]()<font color="blue">BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)</font>
+
+![#f03c15]()<font color="red">Everything marked with RED is for the user input
+
+![#1589F0]()<font color="blue">BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
+
 <img src="https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/error2.jpg" alt="err" width="20%"/>
-<p>![#FDDA0D]()<font color="yellow">Everything marked with YELLOW is dependent on the chosen geometry type</font>
+
+![#FDDA0D]()<font color="yellow">Everything marked with YELLOW is dependent on the chosen geometry type
 
 Types of geometry:
 
