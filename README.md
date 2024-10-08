@@ -17,6 +17,8 @@
 All .gh files are aimed to work with **REU_VILLAGES_TEMPLATE_REGION_R24_central.rvt**
 When starting a new project, use **0reset_sheet_parameters.gh** to reset any possible parameters used by the other scripts, left from previous projects.
 
+Before using - install [all additional plugins](https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/plugins)
+
 #### ReUkraineVillages_RhinoToRevit.gh
 ![](https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/ReUkraineVillages_RhinoToRevit.png)
 <p>The main file to create and place views on Revit sheets.
