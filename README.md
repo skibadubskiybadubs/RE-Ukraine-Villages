@@ -24,13 +24,13 @@ Before using - install [all additional plugins](https://github.com/skibadubskiyb
 <p>The main file to create and place views on Revit sheets.
 <p>It uses asynchronious proceses inside Grasshopper and scheduled transactions inside Revit document.
 
-![#f03c15]()Everything marked with RED is for the user input
+![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) Everything marked with RED is for the user input
 
-![#1589F0]()BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
+![#1589F0](https://placehold.co/15x15/1589f0/1589f0.png) BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
 
 <img src="https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/error2.jpg" alt="err" width="20%"/>
 
-![#FDDA0D]()Everything marked with YELLOW is dependent on the chosen geometry type
+![#FDDA0D](https://placehold.co/15x15/fdda0d/fdda0d.png) Everything marked with YELLOW is dependent on the chosen geometry type
 
 Types of geometry:
 
