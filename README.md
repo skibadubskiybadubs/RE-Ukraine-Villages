@@ -6,6 +6,7 @@
 
 <p> This workflow allows massive-production of geometries using different software, hooked up to Revit via Grasshopper.
 <p> Tested geometries using the following software:
+
 - Revit -> Rhino -> Grasshopper -> Revit [Needs additional script, provided in this repo]
 
 - Archicad -> Rhino -> Grasshopper -> Revit [No additional work need]
@@ -21,13 +22,13 @@ When starting a new project, use **0reset_sheet_parameters.gh** to reset any pos
 <p>The main file to create and place views on Revit sheets.
 <p>It uses asynchronious proceses inside Grasshopper and scheduled transactions inside Revit document.
 
-![#f03c15]()<font color="red">Everything marked with RED is for the user input
+![#f03c15]()Everything marked with RED is for the user input
 
-![#1589F0]()<font color="blue">BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
+![#1589F0]()BLUE - data analysis. If something is missing in Revit document, or something is wrong in Rhino/Grasshopper - it will popup an error (works in Windows only)
 
 <img src="https://github.com/skibadubskiybadubs/RE-Ukraine-Villages/blob/main/utils/error2.jpg" alt="err" width="20%"/>
 
-![#FDDA0D]()<font color="yellow">Everything marked with YELLOW is dependent on the chosen geometry type
+![#FDDA0D]()Everything marked with YELLOW is dependent on the chosen geometry type
 
 Types of geometry:
 
